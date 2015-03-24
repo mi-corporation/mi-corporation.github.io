@@ -256,8 +256,8 @@ form {
   padding: 20px;
 }
 
-#project_title {
-  color: #fff;
+#project_title a {
+  color: #ffffff;
 }
 
 
