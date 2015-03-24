@@ -101,6 +101,10 @@ footer p {
   color: #f2f2f2;
 }
 
+#project_title a {
+  color: #fff;
+}
+
 a {
   text-decoration: none;
   color: #007edf;
@@ -256,9 +260,7 @@ form {
   padding: 20px;
 }
 
-#project_title a {
-  color: #ffffff;
-}
+
 
 
 
