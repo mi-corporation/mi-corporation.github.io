@@ -3,7 +3,6 @@
 
 
 /*****Header********/
-
 #header_wrap .inner {
   padding: 50px 0px 10px 10px;
 }
@@ -37,9 +36,11 @@ header a {
 #main_content_wrap {
   background: #ffffff;
   width: 100%;
-  border-width: 0px;
-  padding: none;
-  margin: 0;
+  position: relative;
+  left: 0;
+  padding-top: 30px;
+  margin-left: 0px;
+  overflow: hidden;
 }
 
 ul {
@@ -55,15 +56,16 @@ a {
 }
 
 .examples {
-  width: 100%;
+  width: 200px;
+  height: auto;
   background-color: #f2f2f2;
-  padding: 10px;
   overflow: auto;
+  padding: 20px;
   border: solid;
   border-color: #ffffff;
-  border-width: 10px;
+  border-width: 25px;
   border-left-width: 0px;
-  overflow: auto;
+  float: left;
 }
 
 
@@ -88,18 +90,18 @@ footer a {
 /*****General**********/
 body {
   background: #212121;
-
+  padding: none;
 }
 
 .outer {
   width: 100%;
   border-width: 0px;
-  padding: 0px;
-  margin: 0;
+  padding: none;
+  margin-left: 0px;
 }
 
 .inner {
-  max-width: 640px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
