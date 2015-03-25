@@ -1,7 +1,68 @@
 
 @import url(pygment_trac.css);
 
-#header_wrap {
-  color: #ffffff;
-  background-color: #474343;
+
+/*****Header********/
+
+#header_wrap .inner {
+  padding: 50px 10px 30px 10px;
 }
+
+
+/*****Main**********/
+#main_content_wrap {
+  background: #f2f2f2;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+  text-shadow: none;
+  color: #000000;
+}
+
+.examples {
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  overflow: auto;
+}
+
+
+/*****Footer**********/
+
+footer {
+  color: #ffffff;
+}
+
+footer a {
+  color: #F2F2F2;
+}
+
+#footer_wrap {
+  background: #212121;
+}
+
+
+
+/*****General**********/
+body {
+  background: #212121;
+}
+
+.outer {
+  width: 100%;
+}
+
+.inner {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+a:hover, a:focus {text-decoration: underline;}
