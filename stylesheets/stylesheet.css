@@ -5,13 +5,41 @@
 /*****Header********/
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding: 50px 0px 10px 10px;
+}
+
+header {
+  color: #ffffff;
+}
+
+header a {
+  color: #ffffff;
+}
+
+#viewOnGithub {
+  display: block;
+  background-color: #2e82e1;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 
 /*****Main**********/
 #main_content_wrap {
-  background: #f2f2f2;
+  background: #ffffff;
+  width: 100%;
+  border-width: 0px;
+  padding: none;
+  margin: 0;
 }
 
 ul {
@@ -28,9 +56,13 @@ a {
 
 .examples {
   width: 100%;
-  background-color: #fff;
+  background-color: #f2f2f2;
   padding: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  overflow: auto;
+  border: solid;
+  border-color: #ffffff;
+  border-width: 10px;
+  border-left-width: 0px;
   overflow: auto;
 }
 
@@ -46,7 +78,9 @@ footer a {
 }
 
 #footer_wrap {
-  background: #212121;
+/*  background: #212121;*/
+  border: none;
+  padding: none;
 }
 
 
@@ -54,10 +88,14 @@ footer a {
 /*****General**********/
 body {
   background: #212121;
+
 }
 
 .outer {
   width: 100%;
+  border-width: 0px;
+  padding: 0px;
+  margin: 0;
 }
 
 .inner {
@@ -66,3 +104,5 @@ body {
 }
 
 a:hover, a:focus {text-decoration: underline;}
+
+
