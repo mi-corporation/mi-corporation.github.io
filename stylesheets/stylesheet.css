@@ -72,18 +72,43 @@ header a {
 }
 
 
+/*****More Info********/
+
+#more_info_wrap {
+  height: 270px;
+  font-size: 16px;
+  line-height: 10px;
+}
+
+#more_info {
+  padding-top: 20px;
+}
+
+.info {
+  width: 220px;
+  float: left;
+  padding-left: 40px;
+}
+
+#phone {
+  padding-top: 20px;
+}
+
+
 /*****Footer**********/
 
 footer {
-  color: #174f7e;
+  color: #ffffff;
+  font-size: 16px;
 }
 
 footer a {
-  color: #174f7e;
+  color: #ffffff;
 }
 
 #footer_wrap {
-/*  background: #212121;*/
+  background: #212121;
+  height: 100px;
   border: none;
   padding: none;
 }
@@ -135,6 +160,15 @@ h4 {
 h5 {
   font-size: 16px;
   font-style: italic;
+}
+
+h6 {
+  font-size: 20px;
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
 }
 
 ul {
