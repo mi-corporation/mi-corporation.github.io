@@ -8,16 +8,16 @@
 }
 
 header {
-  color: #ffffff;
+  color: #174f7e;
 }
 
 header a {
-  color: #ffffff;
+  color: #174f7e;
 }
 
 #viewOnGithub {
   display: block;
-  background-color: #2e82e1;
+  background-color: #76757a;
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 10px;
@@ -29,54 +29,57 @@ header a {
   border-bottom-left-radius: 10px;
   font-size: 20px;
   font-weight: 700;
+  color: #ffffff;
 }
 
 
 /*****Main**********/
 #main_content_wrap {
-  background: #ffffff;
+  background: #76757a;
   width: 100%;
   position: relative;
   left: 0;
   padding-top: 30px;
   margin-left: 0px;
   overflow: hidden;
-}
-
-ul {
-  list-style: disc;
-  padding-left: 20px;
-  margin-bottom: 15px;
-}
-
-a {
-  text-decoration: none;
-  text-shadow: none;
-  color: #000000;
+  padding-bottom: 30px;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 150%;
+  font-family: Verdana, Geneva, sans-serif;
 }
 
 .examples {
   width: 200px;
-  height: auto;
-  background-color: #f2f2f2;
+  height: 250px;
+  background-color: #e2e2e2;
   overflow: auto;
   padding: 20px;
+  padding-top: 0px;
   border: solid;
   border-color: #ffffff;
-  border-width: 25px;
-  border-left-width: 0px;
+  border-width: 10px;
+  border-color: #76757a;
   float: left;
+  border-radius: 20px;
+  font-size: 16px;
+  line-height: 100%;
+  color: #000000;
+}
+
+.examples a {
+  color: #000000;
 }
 
 
 /*****Footer**********/
 
 footer {
-  color: #ffffff;
+  color: #174f7e;
 }
 
 footer a {
-  color: #F2F2F2;
+  color: #174f7e;
 }
 
 #footer_wrap {
@@ -89,7 +92,7 @@ footer a {
 
 /*****General**********/
 body {
-  background: #212121;
+  background: #ffffff;
   padding: none;
 }
 
@@ -105,6 +108,39 @@ body {
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+  text-shadow: none;
+  color: #000000;
+}
+
 a:hover, a:focus {text-decoration: underline;}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 16px;
+  font-style: italic;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
 
 
