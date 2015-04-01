@@ -24,13 +24,40 @@ header a {
   padding-bottom: 10px;
   position: absolute;
   top: 0px;
-  right: 30px;
+  right: 270px;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
   font-size: 20px;
   font-weight: 700;
   color: #ffffff;
 }
+
+.social_icon {
+  width: 35px;
+  float: left;
+}
+
+#social {
+  background-color: #ffffff;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  position: absolute;
+  top: -2px;
+  right: 30px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #76757a;
+}
+
+
 
 
 /*****Main**********/
@@ -172,7 +199,7 @@ h6 {
 }
 
 ul {
-  list-style: disc;
+  list-style: none;
   padding-left: 20px;
   margin-bottom: 15px;
 }
