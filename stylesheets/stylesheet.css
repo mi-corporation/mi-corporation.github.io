@@ -21,7 +21,7 @@ header a {
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   position: absolute;
   top: 0px;
   right: 270px;
@@ -30,11 +30,20 @@ header a {
   font-size: 20px;
   font-weight: 700;
   color: #ffffff;
+  height: 40px;
+}
+
+.social_icon_li {
+  width: 40px;
+  float: left;
 }
 
 .social_icon {
-  width: 35px;
-  float: left;
+  opacity: 0.4;
+}
+
+#facebook_icon {
+
 }
 
 #social {
@@ -55,6 +64,7 @@ header a {
   border-style: solid;
   border-width: 2px;
   border-color: #76757a;
+  height: 40px;
 }
 
 
