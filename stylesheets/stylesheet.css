@@ -108,6 +108,25 @@ header a {
   color: #000000;
 }
 
+#search_input {
+  width: 550px;
+  height: 50px;
+  font-size: 25px;
+}
+
+.btn {
+  width: 200px;
+  height: 55px;
+  font-size: 25px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#search_group {
+  height: 50px;
+  padding-bottom: 30px;
+}
+
 
 /*****More Info********/
 

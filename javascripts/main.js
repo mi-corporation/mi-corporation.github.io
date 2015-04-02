@@ -1,8 +1,7 @@
 
 $(document).ready(function(){
 
-
-	//Social media icons when mouseover
+	/***Social media icons when mouseover***/
     $("#facebook_icon").mouseover(function(){
     	$("#facebook_icon").fadeTo(0, 1);
     });
@@ -30,4 +29,36 @@ $(document).ready(function(){
     $("#youtube_icon").mouseout(function(){
     	$("#youtube_icon").fadeTo(0, 0.4);
     });
+
+
+
+    /***Search***/
+    $("#search_button").click(function(){
+        var searchKeyword = $("#search_input").val();
+        var examples=SearchExample(searchKeyword);
+        for(i = 0; i < examples.length; i++){
+            $(examples[i]).hide();
+        }
+    });
+
 });
+
+
+/***Search function***/
+function SearchExample(str) {
+    var examples = new Array();
+    var allExamples = document.getElementsByClassName("examples");
+    for (i = 0; i < allExamples.length; i++){
+        var className = $(allExamples[i]).attr('class');
+        if (className.indexOf(str) == -1){
+            examples.push(allExamples[i]);
+        }
+        else{
+            $(allExamples[i]).show();
+        }
+    }
+    return examples;
+}
+
+
+
