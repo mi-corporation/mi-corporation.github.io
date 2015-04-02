@@ -34,7 +34,7 @@ $(document).ready(function(){
 
     /***Search***/
     $("#search_button").click(function(){
-        var searchKeyword = $("#search_input").val();
+        var searchKeyword = $("#search_input").val().toLowerCase();
         var examples=SearchExample(searchKeyword);
         for(i = 0; i < examples.length; i++){
             $(examples[i]).hide();
