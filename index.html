@@ -18,6 +18,7 @@
     <header class="inner">
 
       <a id="viewOnGithub" href="https://github.com/mi-corporation">View on GitHub</a>
+
       <ul id="social" class="social media">
         <li id="facebook" class="social_icon_li">
           <a href='https://www.facebook.com/MiCorporation'>
@@ -40,10 +41,13 @@
           </a>
         </li>
       </ul>
-      
 
+      <!-- Tile and slogan
       <h1 id="micoTitle"><a href="http://www.mi-corporation.com/">Mi-Corporation</a></h1>
+
       <h2 id="micoSlogan">Any data, Any devices, Anywhere</h2>
+
+      -->
 
     </header>
   </div>
@@ -56,13 +60,12 @@
       <p>Mi-Co provides enterprise-class mobile solutions for mission-critical business processes. Explore our examples on Github to learn how our products can provide you with the most flexible enterprise-class solutions for any data, on any device, anywhere.</p>
 
       <div id="search_bar_wrap">
-        <div id="search_group">
-          <input id="search_input" type="text" class="form-control" placeholder="  Search for...">
+        <form id="search_group" onSubmit="submitSearch(); return false;">
+          <input id="search_input" type="text" class="form-control" placeholder="Search for...">
           <span id="search_button">
             <button class="btn" type="button">Search</button>
           </span>
-        </div>
-
+        </form>
       </div>
 
       <div id="examplesOnGithub">
@@ -71,25 +74,21 @@
           <h5>Form Template</h5>
           <p>This form shows ... </p>
         </div>
-
         <div id="annotations" class="examples forms annotations">
           <h4><a href="https://github.com/mi-corporation/forms">Annotations Example</a></h4>
           <h5>Form Template</h5>
           <p>This form shows annotations ... </p>
         </div>
-
-        <div id="VBSampleClientApp" class="examples solutions VB">
+        <div id="VBSampleClientApp" class="examples solutions vb">
           <h4><a href="https://github.com/mi-corporation/VBSampleClientApp">VB Sample Cient App</a></h4>
           <h5>Solution</h5>
           <p>This solution was designed for ... </p>
         </div>
-
         <div id="dataReplication" class="examples solutions data replication">
           <h4><a href="https://github.com/mi-corporation/DataReplication">Data Replication</a></h4>
           <h5>Solution</h5>
           <p>This solution was designed for ... </p>
         </div>
-
       </div>
     </section>
   </div>
@@ -111,7 +110,6 @@
         <p><a href="http://www.mi-corporation.com/services/overview/">Professional Services</a></p>
         <p><a href="http://www.mi-corporation.com/category/news-and-events/">Press/News</a></p>
         <p><a href="http://www.mi-corporation.com/category/blog/">Blog</a></p>
-        
       </div>
 
       <div id="contact" class="info">
@@ -123,16 +121,13 @@
           <p>Durham, NC 27703</p>
         </div>
         <div id="phone">
-          <p>Phone: (919)485-4819</p>
-          <p>Fax: (866)610-1942</p>
+          <p>Phone: (919) 485-4819</p>
+          <p>Fax: (866) 610-1942</p>
         </div>
       </div>
 
     </section>
   </div>
-
-
-
 
   <!-- FOOTER  -->
   <div id="footer_wrap" class="outer">
@@ -140,7 +135,6 @@
       <p>&copy; Copyright - <a href='http://www.mi-corporation.com/'>Mi-Corporation</a></p>
     </footer>
   </div>
-
 
 
 </body>

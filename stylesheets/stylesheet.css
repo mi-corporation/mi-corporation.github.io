@@ -7,6 +7,11 @@
   padding: 50px 0px 10px 10px;
 }
 
+#header_wrap {
+  background-image: url("../images/Mi-CoGithubImage.jpg");
+  height: 500px;
+}
+
 header {
   color: #174f7e;
 }
@@ -24,10 +29,10 @@ header a {
   padding-bottom: 0px;
   position: absolute;
   top: 0px;
-  right: 270px;
+  right: 260px;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
   color: #ffffff;
   height: 40px;
@@ -42,16 +47,12 @@ header a {
   opacity: 0.4;
 }
 
-#facebook_icon {
-
-}
-
 #social {
   background-color: #ffffff;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 3px;
-  padding-bottom: 3px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 7px;
+  padding-bottom: 4px;
   position: absolute;
   top: -2px;
   right: 30px;
@@ -61,7 +62,7 @@ header a {
   font-weight: 700;
   color: #ffffff;
   margin: 0;
-  border-style: solid;
+  border-style: none;
   border-width: 2px;
   border-color: #76757a;
   height: 40px;
@@ -112,6 +113,8 @@ header a {
   width: 550px;
   height: 50px;
   font-size: 25px;
+  padding-left: 20px;
+  border-radius: 10px;
 }
 
 .btn {
@@ -120,6 +123,7 @@ header a {
   font-size: 25px;
   padding: 0px;
   margin: 0px;
+
 }
 
 #search_group {
@@ -132,7 +136,7 @@ header a {
 
 #more_info_wrap {
   height: 270px;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 10px;
 }
 
@@ -155,7 +159,7 @@ header a {
 
 footer {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 footer a {
@@ -175,6 +179,7 @@ footer a {
 body {
   background: #ffffff;
   padding: none;
+  margin: 0px;
 }
 
 .outer {
@@ -182,6 +187,7 @@ body {
   border-width: 0px;
   padding: none;
   margin-left: 0px;
+  margin: 0px;
 }
 
 .inner {

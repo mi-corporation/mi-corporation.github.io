@@ -31,7 +31,6 @@ $(document).ready(function(){
     });
 
 
-
     /***Search***/
     $("#search_button").click(function(){
         var searchKeyword = $("#search_input").val().toLowerCase();
@@ -40,6 +39,8 @@ $(document).ready(function(){
             $(examples[i]).hide();
         }
     });
+
+
 
 });
 
@@ -60,5 +61,13 @@ function SearchExample(str) {
     return examples;
 }
 
+
+function submitSearch(){
+        var searchKeyword = $("#search_input").val().toLowerCase();
+        var examples=SearchExample(searchKeyword);
+        for(i = 0; i < examples.length; i++){
+            $(examples[i]).hide();
+        }
+}
 
 
