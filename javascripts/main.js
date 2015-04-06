@@ -1,7 +1,10 @@
 
 $(document).ready(function(){
+	
+    var windowWidth = $(window).width();
+    $("#header_wrap").css("background-size", windowWidth);
 
-	/***Social media icons when mouseover***/
+    /***Social media icons when mouseover***/
     $("#facebook_icon").mouseover(function(){
     	$("#facebook_icon").fadeTo(0, 1);
     });
