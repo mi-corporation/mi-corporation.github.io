@@ -2,7 +2,9 @@
 $(document).ready(function(){
 	
     var windowWidth = $(window).width();
+    var imageHeight = windowWidth/4;
     $("#header_wrap").css("background-size", windowWidth);
+    $("#header_wrap").css("height", imageHeight);
 
     /***Social media icons when mouseover***/
     $("#facebook_icon").mouseover(function(){
