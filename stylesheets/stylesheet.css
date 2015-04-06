@@ -9,7 +9,8 @@
 
 #header_wrap {
   background-image: url("../images/Mi-CoGithubImage.jpg");
-  height: 400px;
+  height: 500px;
+  width: 100%;
 }
 
 header {
