@@ -6,6 +6,14 @@ $(document).ready(function(){
     $("#header_wrap").css("background-size", windowWidth);
     $("#header_wrap").css("height", imageHeight);
 
+
+    $( window ).resize(function() {
+        windowWidth = $(window).width();
+        imageHeight = windowWidth/4;
+        $("#header_wrap").css("background-size", windowWidth);
+        $("#header_wrap").css("height", imageHeight);
+    });
+
     /***Social media icons when mouseover***/
     $("#facebook_icon").mouseover(function(){
     	$("#facebook_icon").fadeTo(0, 1);
@@ -68,11 +76,11 @@ function SearchExample(str) {
 
 
 function submitSearch(){
-        var searchKeyword = $("#search_input").val().toLowerCase();
-        var examples=SearchExample(searchKeyword);
-        for(i = 0; i < examples.length; i++){
-            $(examples[i]).hide();
-        }
+    var searchKeyword = $("#search_input").val().toLowerCase();
+    var examples=SearchExample(searchKeyword);
+    for(i = 0; i < examples.length; i++){
+        $(examples[i]).hide();
+    }
 }
 
 
