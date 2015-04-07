@@ -23,7 +23,7 @@ header a {
 
 #viewOnGithub {
   display: block;
-  background-color: #76757a;
+  background-color: #e1871a;
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 10px;
@@ -103,7 +103,11 @@ header a {
   border-radius: 20px;
   font-size: 16px;
   line-height: 100%;
-  color: #000000;
+  color: #76757a;
+}
+
+.examples:hover {
+  background-color: #99badd;
 }
 
 .examples a {
@@ -116,6 +120,7 @@ header a {
   font-size: 25px;
   padding-left: 20px;
   border-radius: 10px;
+  border: none;
 }
 
 .btn {
@@ -124,6 +129,9 @@ header a {
   font-size: 25px;
   padding: 0px;
   margin: 0px;
+  background-color: #e1871a;
+  border: none;
+  border-radius: 10px;
 
 }
 
@@ -139,6 +147,16 @@ header a {
   height: 270px;
   font-size: 20px;
   line-height: 10px;
+  background-color: #ffffff;
+  color: #76757a;
+}
+
+#more_info a {
+  color: #76757a;
+}
+
+#more_info a:hover {
+  color: #e1871a;
 }
 
 #more_info {
@@ -159,17 +177,17 @@ header a {
 /*****Footer**********/
 
 footer {
-  color: #ffffff;
+  color: #76757a;
   font-size: 20px;
 }
 
 footer a {
-  color: #ffffff;
+  color: #76757a;
 }
 
 #footer_wrap {
-  background: #212121;
-  height: 100px;
+  background: #ffffff;
+  height: 25px;
   border: none;
   padding: none;
 }
@@ -213,7 +231,7 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 30px;
 }
 
 h4 {
