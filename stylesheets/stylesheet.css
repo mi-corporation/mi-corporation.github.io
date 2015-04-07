@@ -137,6 +137,10 @@ header a {
   border-radius: 10px;
 }
 
+.btn:hover {
+  cursor:pointer;
+}
+
 #search_group {
   height: 50px;
   padding-bottom: 30px;
