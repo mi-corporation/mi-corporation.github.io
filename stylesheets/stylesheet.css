@@ -123,16 +123,18 @@ header a {
   border: none;
 }
 
+
 .btn {
   width: 200px;
   height: 55px;
   font-size: 25px;
+  color: #ffffff;
+  font-weight: 700;
   padding: 0px;
   margin: 0px;
   background-color: #e1871a;
   border: none;
   border-radius: 10px;
-
 }
 
 #search_group {

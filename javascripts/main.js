@@ -53,6 +53,11 @@ $(document).ready(function(){
         }
     });
 
+    $("#header_wrap").click(function(){
+        location.href='http://mi-corporation.com';
+
+    });
+
 
 
 });
