@@ -90,11 +90,12 @@ header a {
 
 .examples {
   width: 200px;
-  height: 250px;
+  height: 270px;
   background-color: #e2e2e2;
   overflow: auto;
   padding: 20px;
   padding-top: 0px;
+  padding-bottom: 0px;
   border: solid;
   border-color: #ffffff;
   border-width: 10px;
